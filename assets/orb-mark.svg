@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+  <title id="title">Orb Tangle mark</title>
+  <defs>
+    <radialGradient id="blue" cx="30%" cy="24%"><stop stop-color="#fff"/><stop offset=".22" stop-color="#b9efff"/><stop offset=".55" stop-color="#55c6ff"/><stop offset="1" stop-color="#1784bd"/></radialGradient>
+    <radialGradient id="coral" cx="30%" cy="24%"><stop stop-color="#fff"/><stop offset=".22" stop-color="#ffd4ce"/><stop offset=".55" stop-color="#ff7975"/><stop offset="1" stop-color="#bd485e"/></radialGradient>
+    <radialGradient id="gold" cx="30%" cy="24%"><stop stop-color="#fff"/><stop offset=".22" stop-color="#fff3b4"/><stop offset=".55" stop-color="#ffd75c"/><stop offset="1" stop-color="#bd8b22"/></radialGradient>
+    <radialGradient id="mint" cx="30%" cy="24%"><stop stop-color="#fff"/><stop offset=".22" stop-color="#d0ffe4"/><stop offset=".55" stop-color="#73e1a0"/><stop offset="1" stop-color="#308e6d"/></radialGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <g fill="none" stroke="#9bdcff" stroke-opacity=".25"><ellipse cx="50" cy="50" rx="37" ry="22" transform="rotate(-28 50 50)"/><ellipse cx="50" cy="50" rx="27" ry="36" transform="rotate(34 50 50)"/></g>
+  <g filter="url(#glow)" stroke="#fff" stroke-opacity=".7" stroke-width="1.3"><circle cx="34" cy="35" r="17" fill="url(#blue)"/><circle cx="66" cy="34" r="13" fill="url(#coral)"/><circle cx="62" cy="66" r="15" fill="url(#gold)"/><circle cx="33" cy="66" r="11" fill="url(#mint)"/></g>
+</svg>
